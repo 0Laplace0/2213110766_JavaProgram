@@ -2,6 +2,7 @@ Id : 2213110766
 Name : Kritpnit Teerekaittikul
 Nickname : Chokun
 ชื่อที่เพื่อนเรียก : โช
+Job : Programmer
 Hobby : Play Game
 สิ่งที่ชอบที่สุด : Game
 เพื่อนที่สนิทที่สุด : Pep,Camp
