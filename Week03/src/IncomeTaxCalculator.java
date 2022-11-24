@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.util.Scanner;
 import java.text.*;
 
 public class IncomeTaxCalculator {
@@ -7,8 +8,10 @@ public class IncomeTaxCalculator {
 	static final double TAX_RATE_ABOVE_60K = 0.3;
 
 	public static void main(String[] args) {
-		DecimalFormat frm = new DecimalFormat("#,##0.00");
-		double taxableIncome = Double.parseDouble(JOptionPane.showInputDialog("Enter the taxable income: $"));
+		DecimalFormat frm = new DecimalFormat("###0.00");
+		Scanner scan = new Scanner(System.in);
+	    System.out.print("Enter the taxable income: $");
+	    double taxableIncome = scan.nextDouble();
 		double taxPayable  = 0;
 		if (taxableIncome <= 20000) { // [0, 20000]
 			taxPayable = 0;
@@ -22,7 +25,7 @@ public class IncomeTaxCalculator {
 		else { // [60001, ]
 			taxPayable = ((taxableIncome - 60000)* TAX_RATE_ABOVE_60K) + (20000 * TAX_RATE_ABOVE_20K) + (20000 * TAX_RATE_ABOVE_40K);
 			}
-		JOptionPane.showMessageDialog(null, "The income tax payable is : $" + frm.format(taxPayable));
+		System.out.println("The income tax payable is : $" + frm.format(taxPayable));
 	}
 
 }
