@@ -1,4 +1,0 @@
-Student ID:223110766
-Fullname:Kritpanit Teerakaittikul
-AKA:0Laplace0
-ClassDetail:Control Statement & Confirm Dialog
