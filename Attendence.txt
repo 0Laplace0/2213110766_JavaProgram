@@ -1,5 +1,5 @@
-Date: 08-Dec-2022 
+Date: 15-Dec-2022 
 Student ID:223110766
 Fullname:Kritpanit Teerakaittikul
 AKA:0Laplace0
-ClassDetail:User-Defind Method with String
+ClassDetail:Array in Java
