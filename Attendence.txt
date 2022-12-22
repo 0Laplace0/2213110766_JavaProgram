@@ -1,5 +1,5 @@
-Date: 15-Dec-2022 
+Date: 22-Dec-2022 
 Student ID:223110766
 Fullname:Kritpanit Teerakaittikul
 AKA:0Laplace0
-ClassDetail:Array in Java
+ClassDetail:Class and Object, Array of Object
