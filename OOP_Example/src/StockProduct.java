@@ -7,14 +7,16 @@ public class StockProduct {
 		DecimalFormat frm = new DecimalFormat("#,###.00");
 		Scanner scan = new Scanner(System.in);
 		Product[] pd = new Product[4];
+		
 		for(int i = 0; i < pd.length; i++) {
-			System.out.print("Input product Id : ");
+			pd[i] = new Product();
+			System.out.print("Input product Id    : ");
 			pd[i].setId(scan.next());
-			System.out.print("Input product Unit : ");
+			System.out.print("Input product Unit  : ");
 			pd[i].setUnit(scan.nextInt());
 			System.out.print("Input product Price : ");
 			pd[i].setPrice(scan.nextDouble());
-			while(!pd[i].setPrice() > 0) {
+			while(!(pd[i].getPrice() > 0)) {
 				System.out.print("Input product Price : ");
 				pd[i].setPrice(scan.nextDouble());
 			}
@@ -23,7 +25,7 @@ public class StockProduct {
 		Line();
 		double amount = 0;
 		for(Product PD: pd) {
-			System.out.println("Product ID : " + PD.getId() + ", Total price = " + PD.calulate() + " baht.");
+			System.out.println("Product ID : " + PD.getId() + ", Total price = " + frm.format(PD.calulate()) + " baht.");
 			amount += PD.calulate();
 		}
 		Line();
