@@ -1,5 +1,5 @@
-Date: 12-Jan-2023
+Date: 19-Jan-2023
 Student ID:223110766
 Fullname:Kritpanit Teerakaittikul
 AKA:0Laplace0
-ClassDetail:GUI
+ClassDetail:Encapsulation
