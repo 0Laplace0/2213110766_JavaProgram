@@ -6,4 +6,5 @@ public interface AuthorZ  {
 	public abstract String getFirstName();
 	
 	public abstract boolean checkEmail();
+	
 }

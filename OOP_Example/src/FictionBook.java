@@ -63,4 +63,5 @@ public class FictionBook implements AuthorZ,BookZ{
 				+ "\nPublished for " + totalPublicYear() + " years.";
 	}
 
+	
 }
