@@ -33,7 +33,7 @@ public class MovieDemo {
 		}
 		
 		Theater theater = new Theater(movieId, movieName, new Director(dName, dEmail, dGender), theaterNo);
-		System.out.println();æ
+		System.out.println();
 		System.out.println(theater);
 	}
 
